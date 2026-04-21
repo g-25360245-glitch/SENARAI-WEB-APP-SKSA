@@ -52,6 +52,11 @@ const SENARAI_APLIKASI = [
     title: "Sistem Penjanaan Laporan Pasukan Sekolah",
     url: "https://laporan-pasukan-sekolah.vercel.app/",
     category: "KOKURIKULUM"
+  },
+  {
+    title: "Sistem BMI 5-9T & SEGAK",
+    url: "https://bmi-segak-sksa-2026.vercel.app/",
+    category: "KURIKULUM"
   }
   // TAMBAH APLIKASI BARU DI SINI (Jangan lupa letak koma ',' pada aplikasi sebelumnya)
   // Contoh:
