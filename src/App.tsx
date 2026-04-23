@@ -57,6 +57,11 @@ const SENARAI_APLIKASI = [
     title: "Sistem BMI 5-9T & SEGAK",
     url: "https://bmi-segak-sksa-2026.vercel.app/",
     category: "KURIKULUM"
+  },
+  {
+    title: "Poster Pasukan Sekolah Generator",
+    url: "https://poster-pasukan-sekolah-generator-8l.vercel.app/",
+    category: "KOKURIKULUM"
   }
   // TAMBAH APLIKASI BARU DI SINI (Jangan lupa letak koma ',' pada aplikasi sebelumnya)
   // Contoh:
