@@ -29,8 +29,8 @@ const SENARAI_APLIKASI = [
     category: "HEM"
   },
   {
-    title: "Sistem Penjanaan Surat Amaran Tidak Hadir ke Sekolah",
-    url: "https://unitkehadiransksa.my.canva.site/",
+    title: "Analisa Kehadiran Murid - Bulanan & Sistem Surat Amaran",
+    url: "https://analisa-kehadiran-murid-bulanan.vercel.app",
     category: "HEM"
   },
   {
