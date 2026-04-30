@@ -29,6 +29,11 @@ const SENARAI_APLIKASI = [
     category: "HEM"
   },
   {
+    title: "Dashboard Kehadiran Harian",
+    url: "https://kehadiran-harian-sksa.vercel.app/",
+    category: "HEM"
+  },
+  {
     title: "Analisa Kehadiran Murid - Bulanan & Sistem Surat Amaran",
     url: "https://analisa-kehadiran-murid-bulanan.vercel.app",
     category: "HEM"
