@@ -19,6 +19,11 @@ const SENARAI_APLIKASI = [
     category: "UMUM"
   },
   {
+    title: "Sistem Jadual Ganti (Relief)",
+    url: "https://sistem-janaan-relief-sksa.vercel.app/",
+    category: "KURIKULUM"
+  },
+  {
     title: "Sistem Penjanaan Borang PLaN",
     url: "https://janaan-borang-p-la-n-sk-sg-abong.vercel.app/",
     category: "KURIKULUM"
