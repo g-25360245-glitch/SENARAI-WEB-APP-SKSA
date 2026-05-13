@@ -12,7 +12,14 @@ import { Search, ExternalLink, LayoutGrid } from 'lucide-react';
 // PILIHAN KATEGORI YANG SAH: "UMUM", "KURIKULUM", "HEM", "KOKURIKULUM"
 // ============================================================================
 
-const SENARAI_APLIKASI = [
+type AppData = {
+  title: string;
+  url: string;
+  category: string;
+  fullWidth?: boolean;
+};
+
+const SENARAI_APLIKASI: AppData[] = [
   {
     title: "One Page Report (OPR)",
     url: "https://opr-sksa.vercel.app/",
@@ -42,6 +49,12 @@ const SENARAI_APLIKASI = [
     title: "Analisa Kehadiran Murid - Bulanan & Sistem Surat Amaran",
     url: "https://analisa-kehadiran-murid-bulanan.vercel.app",
     category: "HEM"
+  },
+  {
+    title: "Portal Unit Kokurikulum",
+    url: "https://sites.google.com/moe-dl.edu.my/portalunitkokurikulum/laman-utama?authuser=0",
+    category: "KOKURIKULUM",
+    fullWidth: true
   },
   {
     title: "Pengurusan Penyediaan Anggaran Belanja Mengurus (ABM)",
@@ -177,19 +190,33 @@ export default function App() {
                 {/* Grid Aplikasi */}
                 {appsDalamKategori.length > 0 ? (
                   <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
-                    {appsDalamKategori.map((app, index) => (
-                      <a 
-                        key={index} 
-                        href={app.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] min-h-[120px] bg-white rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-xl border-b-4 border-emerald-500 hover:border-amber-500 hover:bg-amber-50 transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center justify-center text-center group cursor-pointer"
-                      >
-                        <h4 className="text-lg sm:text-xl font-bold text-slate-700 group-hover:text-amber-700 transition-colors">
-                          {app.title}
-                        </h4>
-                      </a>
-                    ))}
+                    {appsDalamKategori.map((app, index) => {
+                      const commonWidthClass = "w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]";
+                        
+                      const appButton = (
+                        <a 
+                          key={app.fullWidth ? undefined : index} 
+                          href={app.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={`${commonWidthClass} min-h-[120px] bg-white rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-xl border-b-4 border-emerald-500 hover:border-amber-500 hover:bg-amber-50 transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center justify-center text-center group cursor-pointer`}
+                        >
+                          <h4 className="text-lg sm:text-xl font-bold text-slate-700 group-hover:text-amber-700 transition-colors">
+                            {app.title}
+                          </h4>
+                        </a>
+                      );
+
+                      if (app.fullWidth) {
+                        return (
+                          <div key={index} className="w-full flex justify-center">
+                            {appButton}
+                          </div>
+                        );
+                      }
+
+                      return appButton;
+                    })}
                   </div>
                 ) : (
                   /* Placeholder jika tiada aplikasi dalam kategori ini */
