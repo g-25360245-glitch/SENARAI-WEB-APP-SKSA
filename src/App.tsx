@@ -51,6 +51,16 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "HEM"
   },
   {
+    title: "Dashboard Kenderaan Guru, AKP & Staf Sokongan dan Pelawat",
+    url: "https://dashboard-kenderaan-sksa.vercel.app/",
+    category: "HEM"
+  },
+  {
+    title: "Borang Daftar Kenderaan Pelawat",
+    url: "https://borang-kenderaan-keluar-masuk-sksa.vercel.app/",
+    category: "HEM"
+  },
+  {
     title: "Portal Unit Kokurikulum",
     url: "https://sites.google.com/moe-dl.edu.my/portalunitkokurikulum/laman-utama?authuser=0",
     category: "KOKURIKULUM",
