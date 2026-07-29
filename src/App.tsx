@@ -61,6 +61,11 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "HEM"
   },
   {
+    title: "Dashboard RMT SKSA",
+    url: "https://dashboard-rmt-sksa.vercel.app/",
+    category: "HEM"
+  },
+  {
     title: "Portal Unit Kokurikulum",
     url: "https://sites.google.com/moe-dl.edu.my/portalunitkokurikulum/laman-utama?authuser=0",
     category: "KOKURIKULUM",
