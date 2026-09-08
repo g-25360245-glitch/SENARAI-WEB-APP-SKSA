@@ -36,6 +36,11 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "KURIKULUM"
   },
   {
+    title: "Dashboard Pembelajaran Digital SKSA",
+    url: "https://dashboard-pembelajaran-digital-sksa.vercel.app/",
+    category: "KURIKULUM"
+  },
+  {
     title: "Laporan Guru Bertugas",
     url: "https://laporan-guru-bertugas-sksa.vercel.app/",
     category: "HEM"
@@ -67,7 +72,7 @@ const SENARAI_APLIKASI: AppData[] = [
   },
   {
     title: "Portal Unit Kokurikulum",
-    url: "https://sites.google.com/moe-dl.edu.my/portalunitkokurikulum/laman-utama?authuser=0",
+    url: "https://portal-kokurikulum-sksa.vercel.app/",
     category: "KOKURIKULUM",
     fullWidth: true
   },
@@ -118,8 +123,8 @@ const SENARAI_APLIKASI: AppData[] = [
 const KATEGORI_INFO = [
   { id: 'UMUM', title: 'UMUM', logo: null },
   { id: 'KURIKULUM', title: 'KURIKULUM', logo: 'https://i.postimg.cc/w3K4TF3G/Gemini-Generated-Image-r3ak49r3ak49r3ak.png' },
-  { id: 'HEM', title: 'HEM', logo: 'https://i.postimg.cc/vHfb7N7V/Whats-App-Image-2026-03-04-at-10-00-06.jpg' },
-  { id: 'KOKURIKULUM', title: 'KOKURIKULUM', logo: 'https://i.postimg.cc/BvxBDPvw/Logo_Unit_Koku.png' },
+  { id: 'HEM', title: 'HEM', logo: 'https://i.postimg.cc/L5hXcFMM/Unit-HEM.png' },
+  { id: 'KOKURIKULUM', title: 'KOKURIKULUM', logo: 'https://i.postimg.cc/gchxddCQ/Logo-Unit-Koku.png' },
 ];
 
 export default function App() {
