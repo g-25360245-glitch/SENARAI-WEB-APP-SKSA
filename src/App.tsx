@@ -26,6 +26,11 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "UMUM"
   },
   {
+    title: "ISPPK",
+    url: "https://isppksksa.vercel.app/",
+    category: "UMUM"
+  },
+  {
     title: "Sistem Jadual Ganti (Relief)",
     url: "https://sistem-janaan-relief-sksa.vercel.app/",
     category: "KURIKULUM"
