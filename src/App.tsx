@@ -46,6 +46,11 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "KURIKULUM"
   },
   {
+    title: "Penjaminan Kualiti",
+    url: "https://penjaminan-kualiti-sksa.vercel.app/",
+    category: "KURIKULUM"
+  },
+  {
     title: "Laporan Guru Bertugas",
     url: "https://laporan-guru-bertugas-sksa.vercel.app/",
     category: "HEM"
