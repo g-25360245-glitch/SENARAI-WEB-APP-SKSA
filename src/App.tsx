@@ -31,6 +31,11 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "UMUM"
   },
   {
+    title: "Sistem Penjanaan Sijil Tamat Sekolah (Tahun 6 & PPKI)",
+    url: "https://pengurusan-sijil-berhenti-sekolah-s.vercel.app/",
+    category: "UMUM"
+  },
+  {
     title: "Sistem Jadual Ganti (Relief)",
     url: "https://sistem-janaan-relief-sksa.vercel.app/",
     category: "KURIKULUM"
