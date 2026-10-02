@@ -56,6 +56,11 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "KURIKULUM"
   },
   {
+    title: "Sistem BMI 5-9T & SEGAK",
+    url: "https://bmi-segak-sksa-2026.vercel.app/",
+    category: "KURIKULUM"
+  },
+  {
     title: "Laporan Guru Bertugas",
     url: "https://laporan-guru-bertugas-sksa.vercel.app/",
     category: "HEM"
@@ -92,6 +97,11 @@ const SENARAI_APLIKASI: AppData[] = [
     fullWidth: true
   },
   {
+    title: "Sistem PAJSK (IDME Integration)",
+    url: "https://pajsk-sksa.vercel.app/",
+    category: "KOKURIKULUM"
+  },
+  {
     title: "Pengurusan Penyediaan Anggaran Belanja Mengurus (ABM)",
     url: "https://pengurusan-penyediaan-abm-pasukan-s.vercel.app/",
     category: "KOKURIKULUM"
@@ -110,11 +120,6 @@ const SENARAI_APLIKASI: AppData[] = [
     title: "Sistem Penjanaan Laporan Pasukan Sekolah",
     url: "https://laporan-pasukan-sekolah.vercel.app/",
     category: "KOKURIKULUM"
-  },
-  {
-    title: "Sistem BMI 5-9T & SEGAK",
-    url: "https://bmi-segak-sksa-2026.vercel.app/",
-    category: "KURIKULUM"
   },
   {
     title: "Poster Pasukan Sekolah Generator",
