@@ -91,6 +91,11 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "HEM"
   },
   {
+    title: "Sistem Pengurusan Skim Pinjaman Buku Teks",
+    url: "https://sistem-pengurusan-spbt-sksa.vercel.app/",
+    category: "HEM"
+  },
+  {
     title: "Portal Unit Kokurikulum",
     url: "https://portal-kokurikulum-sksa.vercel.app/",
     category: "KOKURIKULUM",
