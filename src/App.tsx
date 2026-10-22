@@ -21,6 +21,12 @@ type AppData = {
 
 const SENARAI_APLIKASI: AppData[] = [
   {
+    title: "Takwim",
+    url: "https://takwimsksa.vercel.app/",
+    category: "UMUM",
+    fullWidth: true
+  },
+  {
     title: "One Page Report (OPR)",
     url: "https://opr-sksa.vercel.app/",
     category: "UMUM"
