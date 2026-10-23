@@ -67,6 +67,12 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "KURIKULUM"
   },
   {
+    title: "Portal Unit HEM",
+    url: "https://portal-hem.vercel.app/",
+    category: "HEM",
+    fullWidth: true
+  },
+  {
     title: "Laporan Guru Bertugas",
     url: "https://laporan-guru-bertugas-sksa.vercel.app/",
     category: "HEM"
