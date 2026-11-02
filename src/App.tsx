@@ -42,6 +42,11 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "UMUM"
   },
   {
+    title: "Dashboard Guru & Murid",
+    url: "https://dashboard-utama-sksa.vercel.app/",
+    category: "UMUM"
+  },
+  {
     title: "Sistem Jadual Ganti (Relief)",
     url: "https://sistem-janaan-relief-sksa.vercel.app/",
     category: "KURIKULUM"
@@ -105,6 +110,11 @@ const SENARAI_APLIKASI: AppData[] = [
   {
     title: "Sistem Pengurusan Skim Pinjaman Buku Teks",
     url: "https://sistem-pengurusan-spbt-sksa.vercel.app/",
+    category: "HEM"
+  },
+  {
+    title: "Pengurusan Jawatan Murid",
+    url: "https://pengurusan-jawatan-murid-sksa.vercel.app/",
     category: "HEM"
   },
   {
