@@ -47,28 +47,8 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "UMUM"
   },
   {
-    title: "Sistem Jadual Ganti (Relief)",
-    url: "https://sistem-janaan-relief-sksa.vercel.app/",
-    category: "KURIKULUM"
-  },
-  {
-    title: "Sistem Penjanaan Borang PLaN",
-    url: "https://janaan-borang-p-la-n-sk-sg-abong.vercel.app/",
-    category: "KURIKULUM"
-  },
-  {
-    title: "Dashboard Pembelajaran Digital SKSA",
-    url: "https://dashboard-pembelajaran-digital-sksa.vercel.app/",
-    category: "KURIKULUM"
-  },
-  {
     title: "Penjaminan Kualiti",
     url: "https://penjaminan-kualiti-sksa.vercel.app/",
-    category: "KURIKULUM"
-  },
-  {
-    title: "Sistem BMI 5-9T & SEGAK",
-    url: "https://bmi-segak-sksa-2026.vercel.app/",
     category: "KURIKULUM"
   },
   {
@@ -151,6 +131,11 @@ const SENARAI_APLIKASI: AppData[] = [
   {
     title: "Poster Pasukan Sekolah Generator",
     url: "https://poster-pasukan-sekolah-generator-8l.vercel.app/",
+    category: "KOKURIKULUM"
+  },
+  {
+    title: "Sistem BMI 5-9T & SEGAK",
+    url: "https://bmi-segak-sksa-2026.vercel.app/",
     category: "KOKURIKULUM"
   }
   // TAMBAH APLIKASI BARU DI SINI (Jangan lupa letak koma ',' pada aplikasi sebelumnya)
