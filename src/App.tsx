@@ -137,6 +137,11 @@ const SENARAI_APLIKASI: AppData[] = [
     title: "Sistem BMI 5-9T & SEGAK",
     url: "https://bmi-segak-sksa-2026.vercel.app/",
     category: "KOKURIKULUM"
+  },
+  {
+    title: "Sistem Pelaporan Kem Bestari Solat (KBS)",
+    url: "https://kem-bestari-solat-sksa.vercel.app/",
+    category: "KOKURIKULUM"
   }
   // TAMBAH APLIKASI BARU DI SINI (Jangan lupa letak koma ',' pada aplikasi sebelumnya)
   // Contoh:
