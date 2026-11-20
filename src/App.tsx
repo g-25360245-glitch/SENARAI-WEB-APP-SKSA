@@ -47,6 +47,11 @@ const SENARAI_APLIKASI: AppData[] = [
     category: "UMUM"
   },
   {
+    title: "Dashboard Pemberatan Tugas Guru",
+    url: "https://e-beban-sksa.vercel.app/",
+    category: "UMUM"
+  },
+  {
     title: "Penjaminan Kualiti",
     url: "https://penjaminan-kualiti-sksa.vercel.app/",
     category: "KURIKULUM"
